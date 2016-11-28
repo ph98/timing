@@ -105,13 +105,36 @@
         width: 495px;
     }
 }
-@font-face {
+
+/*@font-face {
     font-family: BYekan;
     src: url('/fonts/wYekan.eot?-5bd4u4');
     src: url("/fonts/wYekan.eot?#iefix-5bd4u4") format('embedded-opentype'), url("/fonts/wYekan.woff?-5bd4u4") format('woff'), url("/fonts/wYekan.ttf?-5bd4u4") format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+}*/
+  
+/* font-Samim */
+  @font-face {
+      font-family: Samim;
+      src: url('http://fonts.codearena.ir/rastikerdar/samim/samim.eot');
+      src: url('http://fonts.codearena.ir/rastikerdar/samim/samim.eot?#iefix') format('embedded-opentype'),
+           url('http://fonts.codearena.ir/rastikerdar/samim/samim.woff') format('woff'),
+           url('http://fonts.codearena.ir/rastikerdar/samim/samim.ttf') format('truetype');
+      font-weight: normal;
+    }
+
+  
+/* font-Vazir */
+  @font-face {
+      font-family: Vazir;
+      src: url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.eot');
+      src: url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.eot?#iefix') format('embedded-opentype'),
+           url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.woff') format('woff'),
+           url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.ttf') format('truetype');
+      font-weight: normal;
+	  
+    }
 
 /*body {
     padding: 50px;
@@ -119,11 +142,14 @@
     text-align: right;
 }*/
 
-p, a, h2, h3, button, input {
-    font-family: BYekan, Times, serif;
+a, h2, h3, button, input {
+    font-family: Samim, Times, serif;
     text-align: right;
 }
-
+p{
+	font-family:Vazir,Times,serif;
+	text-align:right;
+}
 /*p, a {
     font-size: 20px;
 }*/
